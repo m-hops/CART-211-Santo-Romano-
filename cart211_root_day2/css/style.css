@@ -1,0 +1,44 @@
+body {
+  background-color: #fab000;
+  font-family: gotham, helvetica, verdana, sans-serif;
+}
+
+h1{
+  font-size: 72px;
+  color: aqua;
+  line-height: 0px;
+}
+
+h2{
+  font-family: Georgia, Times, serif;
+  font-size: 42px;
+  color:#667;
+  font-style: italic;
+  text-transform: capitalize;
+}
+
+p {
+  font-size: 18px;
+  line-height: 24px;
+}
+
+/* pseudo class must be in this order
+  link, visited, hover, active */
+a:link {
+  color: blue;
+  text-transform: uppercase;
+  font-size: 18px;
+  margin-right: 10px;
+}
+
+a:visited {
+  color:beige;
+}
+
+a:hover {
+  color:#333;
+}
+
+a:active {
+  color:#333;
+}
