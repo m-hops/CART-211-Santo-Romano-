@@ -1,0 +1,42 @@
+body{
+  background-color: #EEE9C1;
+  font-family: Helvetica, sans-serif;
+  text-align: center;
+  padding-top: 2em;
+}
+
+h1{
+  font-size: 72px;
+  color:#7F2936;
+  line-height: 2px;
+  text-decoration:underline;
+  text-transform: uppercase;
+}
+
+h2{
+  color:#7F2936;
+}
+
+p {
+  font-size: 15px;
+  color:#7F2936;
+  line-height: 20px;
+}
+
+a:link{
+  color:black;
+  text-transform: uppercase;
+  font-size: 10px;
+}
+
+a:visited {
+  color:#D95959;
+}
+
+a:hover {
+  color:#7F2936;
+}
+
+a:active {
+  color:color:black;
+}
