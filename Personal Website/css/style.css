@@ -1,0 +1,87 @@
+@font-face {
+  font-family: 'gameBoyFont';
+  src: url('/css/gameboy.woff') format('woff');
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  background-color: #9bbc0f;
+  color: #0f380f;
+  font-family: gameBoyFont;
+}
+
+.pageContainer {
+  width: 900px;
+  height: 345px;
+  margin: 5% auto;
+
+}
+
+.title {
+  float: left;
+  padding: 3%;
+  padding-bottom: 20px;
+  width:900px;
+  font-size: 25px;
+  line-height: 35px;
+  text-shadow: 0.5px 0.5px 5px;
+  background-color: #8bac0f;
+}
+
+.nav {
+  float: left;
+  padding-left: 3%;
+  padding-top: 30px;
+  background-color: #8bac0f;
+  text-shadow: 0.5px 0.5px 5px;
+  line-height: 50px;
+  width: 900px;
+  height: 360px;
+}
+
+a:link {
+  color: #306230;
+  text-decoration: none;
+}
+
+a:visited {
+  color: #306230;
+  text-decoration: none;
+}
+
+a:hover {
+  color: #0f380f;
+  text-decoration: none;
+}
+
+.whoAmI {
+  float: left;
+  background-color: #8bac0f;
+  font-size: 14px;
+  width:550px;
+  height:360px;
+  padding-top: 44px;
+  padding-right: 70px;
+  text-shadow: 0.5px 0.5px 5px;
+}
+
+.nav2 {
+  float: left;
+  padding-left: 3%;
+  padding-top: 30px;
+  background-color: #8bac0f;
+  text-shadow: 0.5px 0.5px 5px;
+  line-height: 50px;
+  width: 350px;
+  height: 360px;
+}
+
+.avatar{
+  filter: drop-shadow(0.5px 0.5px 5px);
+  padding-left: 300px;
+}
