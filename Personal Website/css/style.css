@@ -4,44 +4,62 @@
 }
 
 * {
-  margin: 0;
+  margin-top: 2%;
+  margin-left:auto;
+  margin-right: auto;
   padding: 0;
   box-sizing: border-box;
 }
 
 body {
-  background-color: #9bbc0f;
+  background-color: #aaaaaa;
   color: #0f380f;
   font-family: gameBoyFont;
 }
 
-.pageContainer {
-  width: 900px;
-  height: 345px;
-  margin: 5% auto;
-
+.outer {
+  box-shadow: inset 3px 4px 12px #0f380f;
+  max-width: 900px;
+  max-height: 600px;
+  background-color: #9bbc0f;
+  padding-left: 3%;
+  padding-right: 3%;
+  padding-top: 2%;
+  padding-bottom: 2%;
+  border-radius: 10px;
 }
 
-.title {
-  float: left;
-  padding: 3%;
-  padding-bottom: 20px;
-  width:900px;
+.header {
+  height:75px;
   font-size: 25px;
   line-height: 35px;
   text-shadow: 0.5px 0.5px 5px;
-  background-color: #8bac0f;
 }
 
-.nav {
-  float: left;
-  padding-left: 3%;
-  padding-top: 30px;
-  background-color: #8bac0f;
+.wrapper {
+  display: flex;
+  padding-top: 1%;
+  height: 400px;
+}
+
+.right{
+  padding-left: 20px;
+  width:65%;
+  height:100%;
+}
+
+
+img{
+    filter: drop-shadow(4px 0.5px 4.5px #0f380f);
+}
+
+nav {
+  padding-top: 0px;
+  width: 35%;
   text-shadow: 0.5px 0.5px 5px;
   line-height: 50px;
-  width: 900px;
-  height: 360px;
+  font-size: 15px;
+
 }
 
 a:link {
@@ -59,29 +77,16 @@ a:hover {
   text-decoration: none;
 }
 
-.whoAmI {
-  float: left;
-  background-color: #8bac0f;
+.aboutme {
   font-size: 14px;
-  width:550px;
-  height:360px;
-  padding-top: 44px;
-  padding-right: 70px;
+  line-height: 20px;
+  height:90%;
+  overflow: auto;
   text-shadow: 0.5px 0.5px 5px;
 }
 
-.nav2 {
-  float: left;
-  padding-left: 3%;
-  padding-top: 30px;
-  background-color: #8bac0f;
+.writtenLinks {
   text-shadow: 0.5px 0.5px 5px;
   line-height: 50px;
-  width: 350px;
-  height: 360px;
-}
-
-.avatar{
-  filter: drop-shadow(0.5px 0.5px 5px);
-  padding-left: 300px;
+  font-size: 15px;
 }
