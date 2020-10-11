@@ -4,17 +4,53 @@
 }
 
 * {
-  margin-top: 2%;
-  margin-left:auto;
+  margin-top: 1%;
+  margin-left: auto;
   margin-right: auto;
   padding: 0;
   box-sizing: border-box;
 }
 
 body {
-  background-color: #aaaaaa;
+  background-color: #dedede;
   color: #0f380f;
   font-family: gameBoyFont;
+}
+
+.frame {
+  max-width: 1200px;
+  max-height: 800px;
+  min-height: 800px;
+  min-width: 1200px;
+  background-color: #aaaaaa;
+  padding-left: 3%;
+  padding-right: 3%;
+  padding-top: 1%;
+  padding-bottom: 2%;
+  border-radius: 20px;
+  border-top-left-radius: 80px;
+  border-bottom-right-radius: 80px;
+}
+
+.batteryLight{
+  width:85px;
+  height:80px;
+  float: left;
+  margin-top: 200px;
+}
+
+.upperband {}
+
+.shadowFX {
+  filter: drop-shadow(4px 0.5px 4.5px #0f380f);
+}
+
+.shadowFX2 {
+  float: left;
+  max-width: 36px;
+  width: 36px;
+  height: 48px;
+  filter: drop-shadow(4px 0.5px 4.5px #0f380f);
 }
 
 .outer {
@@ -22,6 +58,8 @@ body {
   max-width: 900px;
   max-height: 600px;
   background-color: #9bbc0f;
+  margin-bottom: 6%;
+  margin-left: 13%;
   padding-left: 3%;
   padding-right: 3%;
   padding-top: 2%;
@@ -30,7 +68,7 @@ body {
 }
 
 .header {
-  height:75px;
+  height: 75px;
   font-size: 25px;
   line-height: 35px;
   text-shadow: 0.5px 0.5px 5px;
@@ -42,24 +80,19 @@ body {
   height: 400px;
 }
 
-.right{
+.right {
   padding-left: 20px;
-  width:65%;
-  height:100%;
-}
-
-
-img{
-    filter: drop-shadow(4px 0.5px 4.5px #0f380f);
+  width: 65%;
+  height: 100%;
 }
 
 nav {
   padding-top: 0px;
+  height: 100%;
   width: 35%;
   text-shadow: 0.5px 0.5px 5px;
   line-height: 50px;
   font-size: 15px;
-
 }
 
 a:link {
@@ -80,13 +113,19 @@ a:hover {
 .aboutme {
   font-size: 14px;
   line-height: 20px;
-  height:90%;
+  height: 90%;
   overflow: auto;
   text-shadow: 0.5px 0.5px 5px;
 }
 
 .writtenLinks {
+  padding-left: 60px;
   text-shadow: 0.5px 0.5px 5px;
   line-height: 50px;
   font-size: 15px;
+}
+
+.upperband {
+  padding-left: 5%;
+  padding-bottom: 2%;
 }
