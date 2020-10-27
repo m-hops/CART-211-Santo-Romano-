@@ -1,0 +1,74 @@
+@font-face {
+  font-family: 'glitchFontBold';
+  src:url('/font/Parametric Glitch Bold.ttf');
+}
+
+*{
+  margin:0;
+  padding:0;
+  box-sizing: border-box;
+  font-family: glitchFontBold;
+}
+
+#videoBKG{
+  position: fixed;
+  display:flex;
+  min-width: 100vw;
+  min-height: 100vh;
+}
+
+.video{
+  display:flex;
+}
+
+.BKGoverlay{
+position:fixed;
+display: flex;
+min-width: 100vw;
+min-height: 100vh;
+opacity: 50%;
+}
+
+nav {
+  display:flex;
+  position:fixed;
+  left:0;
+  top:0;
+  width:100%;
+  font-size: 40px;
+}
+
+a:link {
+  background:black;
+  text-align: center;
+  flex-grow: 1;
+  padding: 1% 2%;
+  color:antiquewhite;
+  text-decoration: none;
+  transition: all .5s;
+}
+a:visited{
+color:antiquewhite;
+}
+
+a:hover{
+  background: antiquewhite;
+  color:black;
+}
+
+.overlay{
+  display:flex;
+  width:60%;
+  height: 100vh;
+  background:black;
+  margin:auto;
+  opacity: 95%;
+}
+
+.home{
+  background: red;
+  display:flex;
+  position:fixed;
+  width: 100%;
+  padding-top: 5%;
+}
